@@ -12,7 +12,7 @@ let cidades = "";
 // perguntando ao usuario qual cidade ele ja visitou e se visitou mais alguma cidade
 while (visitado){
   cidades += prompt("Qual cidade voce visitou?");
-  cidades += " ";
+  cidades += ", ";
   visitado = confirm(nome + " voce visitou mais alguma cidade?");
 }
 
